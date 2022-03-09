@@ -268,7 +268,7 @@ Priority of a service response transfer should match the priority of the corresp
         \item[Exceptional] -- The bus designer can ignore these messages when calculating bus load since they
         should only be sent when a total system failure has occurred.
         For example, a self-destruct message on a rocket would use this priority.
-        Another analogy is an NMI on a microcontroller.
+        Another analogy is an Non-Maskable Interrupt (NMI) on a microcontroller.
 
         \item[Immediate] -- Immediate is a ``high priority message'' but with additional latency constraints.
         Since exceptional messages are not considered when designing a bus, the latency of immediate messages
